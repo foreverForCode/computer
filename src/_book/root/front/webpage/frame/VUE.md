@@ -325,11 +325,6 @@ var app = new Vue(...)
 
 功能：javascript表达式支持
 
-``` javascript
-{{number + 1}}
-{{ok ? 'Yes' : 'No'}}
-<div v-bind:id="list-"></div>
-```
 
 失败:
 
