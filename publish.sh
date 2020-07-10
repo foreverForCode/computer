@@ -12,6 +12,8 @@ git commit -m "发布"
 
 git push origin master
 
-sleep 20
+sleep 10
 
 git push mayun master
+
+echo "合并成功"
