@@ -16,4 +16,4 @@ sleep 10
 
 git push mayun master
 
-echo "合并成功"
+echo "上传成功"
