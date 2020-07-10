@@ -328,7 +328,7 @@ var app = new Vue(...)
 
 失败:
 
-```
+``` javascript
 <!-- 这是语句，不是表达式 -->
 {{ var a = 1 }}
 
