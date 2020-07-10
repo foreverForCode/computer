@@ -1,0 +1,90 @@
+
+{
+    "title": "开发文档",
+    "author": "jordan",
+    "plugins": [
+        "-sharing",
+        "sharing-plus",
+        "include-codeblock",
+        "back-to-top-button",
+        "chapter-fold",
+        "simple-page-toc",
+        "page-toc-button",
+        "auto-scroll-table",
+        "popup",
+        "splitter",
+        "hide-element",
+        "code",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "-livereload",
+        "prism",
+        "-highlight",
+        "local-pagefooter",
+        "pageview-count",
+        "alerts",
+        "include-csv"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "simple-page-toc": {
+            "maxDepth": 4,
+            "skipFirstH1": true
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ]
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "qq",
+                "linkedin",
+                "qzone",
+                "douban"
+            ]
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": false
+        },
+        "code": {
+            "copyButtons": true
+        },
+
+        "local-pagefooter": {
+            "copyright": "jordan",
+            "islocal": true,
+            "modify_label": "The document reversion time: ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
+}
