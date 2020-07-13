@@ -47,3 +47,23 @@ Vue（读音/vju:/, 类似于view）是一套用于构建用户界面的**渐进
     1. ajax请求数据放在哪个环节处理？
 
         **create**和**mounted**环节都可以
+
+
+
+	### 模板语法
+
+	#### 插值
+
+##### 文本
+
+常用
+
+`<sapn>message: {{msg}}</span>`
+
+v-once : 执行一次性插值
+
+`<span v-once>{{msg}}</span>`
+
+v-html : 输出真正的HTML
+
+`<span v-html="rawHtml"></span>`
