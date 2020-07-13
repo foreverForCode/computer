@@ -35,3 +35,15 @@ Vue（读音/vju:/, 类似于view）是一套用于构建用户界面的**渐进
     ```
 
     
+
+    ### Vue生命周期
+
+    ![Vue](https://cn.vuejs.org/images/lifecycle.png)
+
+    
+
+    #### 生命周期常用场景
+
+    1. ajax请求数据放在哪个环节处理？
+
+        **create**和**mounted**环节都可以
